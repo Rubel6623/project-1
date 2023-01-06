@@ -2,11 +2,13 @@
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
-.main{
-    background-image: url(../images/donation6.jpg),linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
+.banner{
+    background-image: url(../images/donation13.jpg),linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
     background-repeat: no-repeat;
     background-position: center;
     background-blend-mode: darken;
+    background-size: cover;
+    padding: 120px;
 }
 .title{
     font-weight: 700;
@@ -35,5 +37,43 @@
     background: #FD6E0A;
     border: 0;
     padding: 18px 35px;
-    margin-top:5px ;
+    margin-top:5px;
+}
+.main-sce{
+    text-align: center;
+    padding: 100px 300px 10px;
+}
+.des-1{
+    padding-top: 5px;
+    font-size: 16px;
+    color: #747171;
+}
+.title-1{
+    font-size: 45px;
+    font-weight:700;
+}
+.btn-shadow{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+
+}
+/* .btn-title{
+    text-align: center;
+} */
+.button{
+    text-align: center;
+}
+.optional{
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(181, 187, 190);
+}
+hr{
+    width: 50%;
+    margin: 1% 30%;
+}
+.align-button{
+    text-align: center;
+    padding: 20px;
 }
